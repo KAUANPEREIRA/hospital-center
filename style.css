@@ -331,7 +331,8 @@ footer{
 
     .footerArea{
         flex-direction:row;
-        height: 100%;
+        height: 300px;
+        background-color:#1e1e1e
         
         
     }
