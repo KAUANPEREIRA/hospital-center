@@ -1,289 +1,232 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet">
-        <title>MedicaCenter</title>
-        <script type="text/javascript">
-        window.onload = function(){
-            document.querySelector(".menuMobile").addEventListener("click",function(){
-                if(document.querySelector(".menu nav ul").style.display=='flex'){
-                    document.querySelector(".menu nav ul").style.display='none'
-                }else{
-                    document.querySelector(".menu nav ul").style.display='flex'
-                }
-            })
-        }
-        </script>
-    </head>
-    <body onload=>
-        <header>
-            <div class="container">
-                <div class="logo">
-                    <a href="" id="logo"><img src="imagens/logoo.png">Clinica Hospitalar</a>
-                </div>
-                <div class="menu">
-                    <div class="menuMobile" onclick="abrir()">
-                        <div class="mm"></div>
-                        <div class="mm"></div>
-                        <div class="mm"></div>
-                    </div>
-                    <nav>
-                        <ul id="lista">
-                            <li>HOME</li>
-                            <li>HOME</li>
-                            <li>HOME</li>
-                            <li>HOME</li>
-                            <li>HOME</li>
-                            <li>HOME</li>
-                        </ul>
-                    </nav>
-                </div>
+   <head>
+      <title></title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="style.css" rel="stylesheet">
+      <title>MedicaCenter</title>
+      <script type="text/javascript">
+         window.onload = function(){
+             document.querySelector(".menuMobile").addEventListener("click",function(){
+                 if(document.querySelector(".menu nav ul").style.display=='flex'){
+                     document.querySelector(".menu nav ul").style.display='none'
+                 }else{
+                     document.querySelector(".menu nav ul").style.display='flex'
+                 }
+             })
+         }
+      </script>
+   </head>
+   <body onload=>
+      <header>
+         <div class="container">
+            <div class="logo">
+               <a href="" id="logo"><img src="imagens/logoo.png">Clinica Hospitalar</a>
             </div>
-        </header>
-        <section id="flag">
-            <div class="container colum">
-                <div class="banner_texto">
-                    <h1>Venha conhecer nossa clinica Hospitalar</h1>
-                    <h2>clinica Hospitalar uma das maiores</h2>
-
-                </div>
-                <div class="banner_options">
-                    <div class="banner1">
-                        <div class="titulo">DENTISTA</div>
-                        <div class="descricao">
-                            Na nossa parte de odontologia temos excelentes profissionais com preço que cabe no seu bolso Venha conferir e faça seu orçamento gratis.
+            <div class="menu">
+               <div class="menuMobile" onclick="abrir()">
+                  <div class="mm"></div>
+                  <div class="mm"></div>
+                  <div class="mm"></div>
+               </div>
+               <nav>
+                  <ul id="lista" style="display:none;">
+                     <li>HOME</li>
+                     <li>HOME</li>
+                     <li>HOME</li>
+                     <li>HOME</li>
+                     <li>HOME</li>
+                     <li>HOME</li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </header>
+      <section id="flag">
+         <div class="container colum">
+         <div class="banner_texto">
+            <h1>Venha conhecer nossa clinica Hospitalar</h1>
+            <h2>clinica Hospitalar uma das maiores</h2>
+         </div>
+         <div class="banner_options">
+         <div class="banner1">
+            <div class="titulo">DENTISTA</div>
+            <div class="descricao">
+               Na nossa parte de odontologia temos excelentes profissionais com preço que cabe no seu bolso Venha conferir e faça seu orçamento gratis.
+            </div>
+         </div>
+         <div class="banner2">
+            <div class="titulo">PEDIATRA</div>
+            <div class="descricao">
+               As crianças são o futuro do Pais cuide da sua traga para nossa clinica exames de rotina e muito mais saúde em primeiro lugar.
+            </div>
+         </div>
+         <div class="banner3">
+            <div class="titulo">FISIOTERAPEUTA</div>
+            <div class="descricao">
+               Com nossa fisioterapia o trabalho é nosso o resultado é seu venha conferir
+            </div>
+         </div>
+      </section>
+      <section id="geral">
+         <div class="container">
+            <section>
+               <div class="widget">
+                  <div class="titles">
+                     <div class="titleText">Algumas noticias</div>
+                     <div class="tracinho"></div>
+                     <div class="corpo flex" >
+                        <article>
+                           <div class="miniatura">
+                              <img src="./imagens/medicos.png">
+                           </div>
+                           <div class="titlesN">
+                              <h1>Pediatra</h1>
+                           </div>
+                           <div class="resumo">
+                              Nossa clinica vem crescendo e o melhor tratamento ao cliente e a sua familia venha passar seu filho conosco e ganha 20% de desconto na primeira consulta.
+                           </div>
+                        </article>
+                        <article>
+                           <div class="miniatura">
+                              <img src="./imagens/medicos.png">
+                           </div>
+                           <div class="titlesN">
+                              <h1>Dentista</h1>
+                           </div>
+                           <div class="resumo">
+                              Nossa clinica vem crescendo e o melhor tratamento ao cliente e um belo sorriso é um otimo cartão de visita assim como uma boa saude bocal venha pelo site e tera 10% de desconto
+                           </div>
+                        </article>
+                        <article>
+                           <div class="miniatura">
+                              <img src="./imagens/medicos.png">
+                           </div>
+                           <div class="titlesN">
+                              <h1>Fisioterapeuta</h1>
+                           </div>
+                           <div class="resumo">
+                              Volta ao normal com nossas fisioterapias excelentes profissionais o trabalho é nosso e o resultado é seu.
+                           </div>
+                        </article>
+                        <article>
+                           <div class="miniatura">
+                              <img src="./imagens/medicos.png">
+                           </div>
+                           <div class="titlesN">
+                              <h1>Psicologia</h1>
+                           </div>
+                           <div class="resumo">
+                              A Psicologia faz bem e acho que todo ser humano deveria passar no psicolo tenha 50% de desconto na sua primeira consulta ou faça um plano anual e receba muitos descontos.
+                           </div>
+                        </article>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <aside>
+               <div class="widget">
+                  <div class="titles">
+                     <div class="titleText">Departamentos</div>
+                     <div class="tracinho"></div>
+                     <div class="corpo">
+                        <div class="quadrado">
                         </div>
-                    </div>
-                    <div class="banner2">
-                        <div class="titulo">PEDIATRA</div>
-                        <div class="descricao">
-                            As crianças são o futuro do Pais cuide da sua traga para nossa clinica exames de rotina e muito mais saúde em primeiro lugar.
+                        <div class="quadrado">
                         </div>
-                        
-                    </div>
-                    <div class="banner3">
-                        <div class="titulo">FISIOTERAPEUTA</div>
-                        <div class="descricao">
-                            Com nossa fisioterapia o trabalho é nosso o resultado é seu venha conferir
+                        <div class="quadrado">
                         </div>
-                       
-                    </div>
-                
-                    
-                </section>
-                <section id="geral">
-                    <div class="container">
-                        <section>
-                            <div class="widget">
-                                <div class="titles">
-                                    <div class="titleText">Algumas noticias</div>
-                                    <div class="tracinho"></div>
-                                    <div class="corpo flex" >
-                                        <article>
-                                            <div class="miniatura">
-                                                <img src="./imagens/medicos.png">
-                                            </div>
-                                            <div class="titlesN">
-                                                <h1>Pediatra</h1>
-                                            </div>
-                                            <div class="resumo">
-                                                Nossa clinica vem crescendo e o melhor tratamento ao cliente e a sua familia venha passar seu filho conosco e ganha 20% de desconto na primeira consulta.
-
-                                            </div>
-                                         </article>
-                                         <article>
-                                            <div class="miniatura">
-                                                <img src="./imagens/medicos.png">
-                                            </div>
-                                            <div class="titlesN">
-                                                <h1>Dentista</h1>
-                                            </div>
-                                            <div class="resumo">
-                                                Nossa clinica vem crescendo e o melhor tratamento ao cliente e um belo sorriso é um otimo cartão de visita assim como uma boa saude bocal venha pelo site e tera 10% de desconto
-
-                                            </div>
-                                         </article>
-                                         <article>
-                                            <div class="miniatura">
-                                                <img src="./imagens/medicos.png">
-                                            </div>
-                                            <div class="titlesN">
-                                                <h1>Fisioterapeuta</h1>
-                                            </div>
-                                            <div class="resumo">
-                                                Volta ao normal com nossas fisioterapias excelentes profissionais o trabalho é nosso e o resultado é seu.
-
-                                            </div>
-                                         </article>
-                                         <article>
-                                            <div class="miniatura">
-                                                <img src="./imagens/medicos.png">
-                                            </div>
-                                            <div class="titlesN">
-                                                <h1>Psicologia</h1>
-                                            </div>
-                                            <div class="resumo">
-                                               A Psicologia faz bem e acho que todo ser humano deveria passar no psicolo tenha 50% de desconto na sua primeira consulta ou faça um plano anual e receba muitos descontos.
-
-                                            </div>
-                                         </article>
-                                   
-                                </div>         
-                                </div>
-                            </div>
-
-
-                        </section>
-                        <aside>
-                            <div class="widget">
-                                <div class="titles">
-                                    <div class="titleText">Departamentos</div>
-                                    <div class="tracinho"></div>
-                                    <div class="corpo">
-                                        <div class="quadrado">
-                                            
-                                        </div>
-                                        <div class="quadrado">
-                                            
-                                        </div>
-                                        <div class="quadrado">
-
-                                        </div>
-                                        <div class="quadrado">
-
-                                        </div>
-                                        <div class="quadrado">
-
-                                        </div>
-                                        <div class="quadrado">
-                                            
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="widget">
-                                <div class="titles">
-                                    <div class="titleText">Para contato</div>
-                                    <div class="tracinho"></div>
-                                    <div class="corpo">
-                                        ...
-                                    </div>
-
-                                </div>
-                            </div>
-                        </aside>
-
-                    </div>
-                </section>
-                <footer>
-                   <div class="container colum">
-                        <div class="rodapeTexto">
-                            <div class="rodapeTexto1">
-                                <div class="titulo">Medicina é vida</div>
-                                <div class="textos">Valorize a sua vida</div>
-                            </div>
-                            <div class="rodapeTexto2">
-                                <div class="titulo">O sorriso é o seu cartão de visitas</div>
-                                <div class="textos">Vamos cuidar do seu sorriso</div>
-                            </div>
-                            <div class="rodapeTexto3">
-                                <div class="titulo">A magia da fisioterapia</div>
-                                <div class="textos">O trabalho é nosso o resultado é seu !</div>
-                            </div>
-
+                        <div class="quadrado">
                         </div>
-                        <div class="footerArea">
-                            <div class="area1">
-                                <div class="titles">
-                                    <div class="titleText">Formas de contato</div>
-                                    <div class="tracinho"></div>
-                                    <div class="corpo1">
-                                        <div class="introducao">
-                                            Aqui voce encontra as formas<br> de entrar em contato
-                                        </div>
-                                        <div class="endereco">
-                                            CLINICA HOSPITALAR<br>
-                                            rua fasano n° 589<br>
-                                            cep:06704-640<br>
-                                            kauanauan71@gmail.com
-                                        </div>
-                                       
-                                        
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="area2">
-                                <div class="titles">
-                                    <div class="titleText">Comentarios Facebook</div>
-                                    <div class="tracinho"></div>
-                                    <div class="corpo">
-                                        <div class="comentarios">Uma otima clinica recomendo muito estou adorando
-
-                                        </div>
-                                        <div class="azul">8 meses</div>
-                                        <div class="comentarios">Melhor dentista da regiao meu sorriso esta perfeito
-
-                                        </div>
-                                        <div class="azul">4 meses</div>
-                                        <div class="comentarios">Depois de um grave acidente , ja estou me recuperando melhor melhores fisioterapeutas do Brasil.
-
-                                        </div>
-                                        <div class="azul">3 meses</div>
-
-
-                                        
-                                    </div>
-
-                                </div>
-
-
-                             
-                                   
-                            </div>
-                            <div class="area3">
-                                <div class="titles">
-                                    <div class="titleText">Comentarios instagram</div>
-                                    <div class="tracinho"></div>
-                                    <div class="corpo">
-                                        
-                                        <div class="comentarios">Psicologa muito boa não vejo a hora da proxima consulta
-
-                                        </div>
-                                        <div class="azul">4 meses</div>
-                                        <div class="comentarios">Melhos atendimento sem palavras 
-
-                                        </div>
-                                        <div class="azul">3 meses</div>
-
-                                    </div>
-
-                                </div>
-                               
-                            </div>
+                        <div class="quadrado">
                         </div>
-
-                    </div>
-
-
-                </footer>
-
-                
-
-                
-            
-            
-
-        
-            <script src="script.js"></script>
-
-
-        </section>
-    
-    </body>
+                        <div class="quadrado">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="widget">
+                  <div class="titles">
+                     <div class="titleText">Para contato</div>
+                     <div class="tracinho"></div>
+                     <div class="corpo">
+                        ...
+                     </div>
+                  </div>
+               </div>
+            </aside>
+         </div>
+      </section>
+      <footer>
+         <div class="container colum">
+            <div class="rodapeTexto">
+               <div class="rodapeTexto1">
+                  <div class="titulo">Medicina é vida</div>
+                  <div class="textos">Valorize a sua vida</div>
+               </div>
+               <div class="rodapeTexto2">
+                  <div class="titulo">O sorriso é o seu cartão de visitas</div>
+                  <div class="textos">Vamos cuidar do seu sorriso</div>
+               </div>
+               <div class="rodapeTexto3">
+                  <div class="titulo">A magia da fisioterapia</div>
+                  <div class="textos">O trabalho é nosso o resultado é seu !</div>
+               </div>
+            </div>
+            <div class="footerArea">
+               <div class="area1">
+                  <div class="titles">
+                     <div class="titleText">Formas de contato</div>
+                     <div class="tracinho"></div>
+                     <div class="corpo1">
+                        <div class="introducao">
+                           Aqui voce encontra as formas<br> de entrar em contato
+                        </div>
+                        <div class="endereco">
+                           CLINICA HOSPITALAR<br>
+                           rua fasano n° 589<br>
+                           cep:06704-640<br>
+                           kauanauan71@gmail.com
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="area2">
+                  <div class="titles">
+                     <div class="titleText">Comentarios Facebook</div>
+                     <div class="tracinho"></div>
+                     <div class="corpo">
+                        <div class="comentarios">Uma otima clinica recomendo muito estou adorando
+                        </div>
+                        <div class="azul">8 meses</div>
+                        <div class="comentarios">Melhor dentista da regiao meu sorriso esta perfeito
+                        </div>
+                        <div class="azul">4 meses</div>
+                        <div class="comentarios">Depois de um grave acidente , ja estou me recuperando melhor melhores fisioterapeutas do Brasil.
+                        </div>
+                        <div class="azul">3 meses</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="area3">
+                  <div class="titles">
+                     <div class="titleText">Comentarios instagram</div>
+                     <div class="tracinho"></div>
+                     <div class="corpo">
+                        <div class="comentarios">Psicologa muito boa não vejo a hora da proxima consulta
+                        </div>
+                        <div class="azul">4 meses</div>
+                        <div class="comentarios">Melhos atendimento sem palavras 
+                        </div>
+                        <div class="azul">3 meses</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script src="script.js"></script>
+      </section>
+   </body>
 </html>
